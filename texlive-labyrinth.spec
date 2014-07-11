@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-labyrinth
 Version:	1.0
-Release:	1
+Release:	2
 Summary:	Draw labyrinths and solution paths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labyrinth
