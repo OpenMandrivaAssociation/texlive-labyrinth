@@ -1,18 +1,12 @@
-# revision 33454
-# category Package
-# catalog-ctan /macros/latex/contrib/labyrinth
-# catalog-date 2014-04-14 00:53:39 +0200
-# catalog-license lppl
-# catalog-version 1.0
 Name:		texlive-labyrinth
-Version:	1.0
-Release:	5
+Version:	33454
+Release:	1
 Summary:	Draw labyrinths and solution paths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labyrinth
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ typesetting simple labyrinths with LaTeX, and generating an
 automatic or manual solution path.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -42,7 +36,7 @@ automatic or manual solution path.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
