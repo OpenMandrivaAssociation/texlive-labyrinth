@@ -1,6 +1,6 @@
 Name:		texlive-labyrinth
 Version:	33454
-Release:	1
+Release:	2
 Summary:	Draw labyrinths and solution paths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labyrinth
