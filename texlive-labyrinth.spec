@@ -3,7 +3,7 @@ Version:	33454
 Release:	2
 Summary:	Draw labyrinths and solution paths
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labyrinth
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/labyrinth
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labyrinth.doc.r%{version}.tar.xz
